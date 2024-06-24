@@ -1,0 +1,20 @@
+[6.089s] Invoking command in '/home/user/ros2_ws/src/actions_quiz': PYTHONPATH=/home/user/ros2_ws/build/actions_quiz/prefix_override:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_quiz build --build-base /home/user/ros2_ws/build/actions_quiz/build install --record /home/user/ros2_ws/build/actions_quiz/install.log --single-version-externally-managed
+[7.874s] running egg_info
+[7.923s] writing ../../build/actions_quiz/actions_quiz.egg-info/PKG-INFO
+[7.923s] writing dependency_links to ../../build/actions_quiz/actions_quiz.egg-info/dependency_links.txt
+[7.924s] writing entry points to ../../build/actions_quiz/actions_quiz.egg-info/entry_points.txt
+[7.924s] writing requirements to ../../build/actions_quiz/actions_quiz.egg-info/requires.txt
+[7.924s] writing top-level names to ../../build/actions_quiz/actions_quiz.egg-info/top_level.txt
+[7.931s] reading manifest file '../../build/actions_quiz/actions_quiz.egg-info/SOURCES.txt'
+[7.933s] writing manifest file '../../build/actions_quiz/actions_quiz.egg-info/SOURCES.txt'
+[7.933s] running build
+[7.933s] running build_py
+[7.934s] running install
+[7.935s] running install_lib
+[7.939s] running install_data
+[7.940s] running install_egg_info
+[7.944s] removing '/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz-0.0.0-py3.10.egg-info' (and everything under it)
+[7.945s] Copying ../../build/actions_quiz/actions_quiz.egg-info to /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz-0.0.0-py3.10.egg-info
+[7.951s] running install_scripts
+[8.057s] writing list of installed files to '/home/user/ros2_ws/build/actions_quiz/install.log'
+[8.218s] Invoked command in '/home/user/ros2_ws/src/actions_quiz' returned '0': PYTHONPATH=/home/user/ros2_ws/build/actions_quiz/prefix_override:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_quiz build --build-base /home/user/ros2_ws/build/actions_quiz/build install --record /home/user/ros2_ws/build/actions_quiz/install.log --single-version-externally-managed

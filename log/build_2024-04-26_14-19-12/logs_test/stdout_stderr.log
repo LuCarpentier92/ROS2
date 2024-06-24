@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/logs_test/logs_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/logs_test/logs_test.egg-info/dependency_links.txt
+writing entry points to ../../build/logs_test/logs_test.egg-info/entry_points.txt
+writing requirements to ../../build/logs_test/logs_test.egg-info/requires.txt
+writing top-level names to ../../build/logs_test/logs_test.egg-info/top_level.txt
+reading manifest file '../../build/logs_test/logs_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/logs_test/logs_test.egg-info/SOURCES.txt'
+running build
+running build_py
+copying logs_test/logger_example.py -> /home/user/ros2_ws/build/logs_test/build/lib/logs_test
+running install
+running install_lib
+copying /home/user/ros2_ws/build/logs_test/build/lib/logs_test/logger_example.py -> /home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test
+byte-compiling /home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test/logger_example.py to logger_example.cpython-310.pyc
+running install_data
+copying launch/logger_example.launch.py -> /home/user/ros2_ws/install/logs_test/share/logs_test
+running install_egg_info
+removing '/home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/logs_test/logs_test.egg-info to /home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing logger_example script to /home/user/ros2_ws/install/logs_test/lib/logs_test
+writing list of installed files to '/home/user/ros2_ws/build/logs_test/install.log'

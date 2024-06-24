@@ -1,0 +1,3 @@
+[console_scripts]
+logger_example = logs_test.logger_example:main
+

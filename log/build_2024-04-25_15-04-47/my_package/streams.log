@@ -1,0 +1,21 @@
+[6.638s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/ros2_ws/build/my_package/prefix_override:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[9.153s] running egg_info
+[9.154s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[9.154s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[9.154s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[9.154s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[9.154s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[9.158s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.159s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[9.162s] running build
+[9.162s] running build_py
+[9.162s] running install
+[9.162s] running install_lib
+[9.163s] running install_data
+[9.166s] running install_egg_info
+[9.166s] removing '/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[9.167s] Copying ../../build/my_package/my_package.egg-info to /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[9.168s] running install_scripts
+[9.232s] Installing simple_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[9.232s] writing list of installed files to '/home/user/ros2_ws/build/my_package/install.log'
+[9.898s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/build/my_package/prefix_override:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed

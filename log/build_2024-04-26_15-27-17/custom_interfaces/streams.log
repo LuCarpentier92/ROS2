@@ -1,0 +1,29 @@
+[0.106s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/logs_test:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/actions_quiz:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces
+[1.924s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.925s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.926s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[1.927s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.927s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.928s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.929s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.929s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.930s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.930s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.931s] -- Found action_msgs: 1.2.0 (/opt/ros/humble/share/action_msgs/cmake)
+[1.931s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.931s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.931s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.399s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.526s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.526s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.526s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.837s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.846s] -- Added test 'lint_cmake' to check CMake code style
+[2.851s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.019s] -- Added test 'xmllint' to check XML markup files
+[3.029s] -- Configuring done
+[3.229s] -- Generating done
+[3.236s] -- Build files have been written to: /home/user/ros2_ws/build/custom_interfaces

@@ -1,0 +1,38 @@
+[6.345s] Invoking command in '/home/user/ros2_ws/src/publisher_pkg': PYTHONPATH=/home/user/ros2_ws/build/publisher_pkg/prefix_override:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/user/ros2_ws/build/publisher_pkg/build install --record /home/user/ros2_ws/build/publisher_pkg/install.log --single-version-externally-managed
+[8.242s] running egg_info
+[8.251s] creating ../../build/publisher_pkg/publisher_pkg.egg-info
+[8.252s] writing ../../build/publisher_pkg/publisher_pkg.egg-info/PKG-INFO
+[8.252s] writing dependency_links to ../../build/publisher_pkg/publisher_pkg.egg-info/dependency_links.txt
+[8.252s] writing entry points to ../../build/publisher_pkg/publisher_pkg.egg-info/entry_points.txt
+[8.252s] writing requirements to ../../build/publisher_pkg/publisher_pkg.egg-info/requires.txt
+[8.252s] writing top-level names to ../../build/publisher_pkg/publisher_pkg.egg-info/top_level.txt
+[8.253s] writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[8.255s] reading manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[8.261s] writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[8.261s] running build
+[8.261s] running build_py
+[8.262s] creating /home/user/ros2_ws/build/publisher_pkg/build
+[8.262s] creating /home/user/ros2_ws/build/publisher_pkg/build/lib
+[8.262s] creating /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg
+[8.262s] copying publisher_pkg/__init__.py -> /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg
+[8.262s] copying publisher_pkg/simple_publisher.py -> /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg
+[8.262s] running install
+[8.263s] running install_lib
+[8.264s] creating /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg
+[8.264s] copying /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg/__init__.py -> /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg
+[8.265s] copying /home/user/ros2_ws/build/publisher_pkg/build/lib/publisher_pkg/simple_publisher.py -> /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg
+[8.265s] byte-compiling /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg/__init__.py to __init__.cpython-310.pyc
+[8.266s] byte-compiling /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg/simple_publisher.py to simple_publisher.cpython-310.pyc
+[8.267s] running install_data
+[8.268s] creating /home/user/ros2_ws/install/publisher_pkg/share/ament_index
+[8.268s] creating /home/user/ros2_ws/install/publisher_pkg/share/ament_index/resource_index
+[8.268s] creating /home/user/ros2_ws/install/publisher_pkg/share/ament_index/resource_index/packages
+[8.268s] copying resource/publisher_pkg -> /home/user/ros2_ws/install/publisher_pkg/share/ament_index/resource_index/packages
+[8.268s] copying package.xml -> /home/user/ros2_ws/install/publisher_pkg/share/publisher_pkg
+[8.269s] copying launch/publisher_pkg_launch_file.launch.py -> /home/user/ros2_ws/install/publisher_pkg/share/publisher_pkg
+[8.269s] running install_egg_info
+[8.271s] Copying ../../build/publisher_pkg/publisher_pkg.egg-info to /home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info
+[8.272s] running install_scripts
+[8.312s] Installing simple_publisher script to /home/user/ros2_ws/install/publisher_pkg/lib/publisher_pkg
+[8.312s] writing list of installed files to '/home/user/ros2_ws/build/publisher_pkg/install.log'
+[8.358s] Invoked command in '/home/user/ros2_ws/src/publisher_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/publisher_pkg/prefix_override:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/user/ros2_ws/build/publisher_pkg/build install --record /home/user/ros2_ws/build/publisher_pkg/install.log --single-version-externally-managed

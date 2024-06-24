@@ -1,0 +1,20 @@
+[3.130s] Invoking command in '/home/user/ros2_ws/src/example36_pkg': LD_LIBRARY_PATH=/home/user/ros2_ws/install/custom_interfaces/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/build/example36_pkg/prefix_override:/home/user/ros2_ws/install/example36_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/example36_pkg build --build-base /home/user/ros2_ws/build/example36_pkg/build install --record /home/user/ros2_ws/build/example36_pkg/install.log --single-version-externally-managed
+[3.653s] running egg_info
+[3.654s] writing ../../build/example36_pkg/example36_pkg.egg-info/PKG-INFO
+[3.654s] writing dependency_links to ../../build/example36_pkg/example36_pkg.egg-info/dependency_links.txt
+[3.654s] writing entry points to ../../build/example36_pkg/example36_pkg.egg-info/entry_points.txt
+[3.655s] writing requirements to ../../build/example36_pkg/example36_pkg.egg-info/requires.txt
+[3.655s] writing top-level names to ../../build/example36_pkg/example36_pkg.egg-info/top_level.txt
+[3.658s] reading manifest file '../../build/example36_pkg/example36_pkg.egg-info/SOURCES.txt'
+[3.659s] writing manifest file '../../build/example36_pkg/example36_pkg.egg-info/SOURCES.txt'
+[3.659s] running build
+[3.659s] running build_py
+[3.660s] running install
+[3.660s] running install_lib
+[3.663s] running install_data
+[3.663s] running install_egg_info
+[3.666s] removing '/home/user/ros2_ws/install/example36_pkg/lib/python3.10/site-packages/example36_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.666s] Copying ../../build/example36_pkg/example36_pkg.egg-info to /home/user/ros2_ws/install/example36_pkg/lib/python3.10/site-packages/example36_pkg-0.0.0-py3.10.egg-info
+[3.668s] running install_scripts
+[3.703s] Installing example36 script to /home/user/ros2_ws/install/example36_pkg/lib/example36_pkg
+[3.704s] writing list of installed files to '/home/user/ros2_ws/build/example36_pkg/install.log'

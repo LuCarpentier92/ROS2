@@ -1,0 +1,3 @@
+/home/user/ros2_ws/src/build/actions_quiz_msg/rosidl_adapter/actions_quiz_msg:msg/Age.idl
+/home/user/ros2_ws/src/build/actions_quiz_msg/rosidl_adapter/actions_quiz_msg:srv/MyCustomServiceMessage.idl
+/home/user/ros2_ws/src/build/actions_quiz_msg/rosidl_adapter/actions_quiz_msg:action/Move.idl

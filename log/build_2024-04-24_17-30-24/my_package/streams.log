@@ -1,0 +1,38 @@
+[6.066s] Invoking command in '/home/user/ros2_ws/src/my_package': PYTHONPATH=/home/user/ros2_ws/build/my_package/prefix_override:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[7.881s] running egg_info
+[7.889s] creating ../../build/my_package/my_package.egg-info
+[7.889s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[7.889s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[7.889s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[7.889s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[7.890s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[7.890s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[7.903s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[7.904s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[7.909s] running build
+[7.909s] running build_py
+[7.913s] creating /home/user/ros2_ws/build/my_package/build
+[7.913s] creating /home/user/ros2_ws/build/my_package/build/lib
+[7.914s] creating /home/user/ros2_ws/build/my_package/build/lib/my_package
+[7.914s] copying my_package/simple.py -> /home/user/ros2_ws/build/my_package/build/lib/my_package
+[7.914s] copying my_package/__init__.py -> /home/user/ros2_ws/build/my_package/build/lib/my_package
+[7.945s] running install
+[7.946s] running install_lib
+[7.946s] creating /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[7.946s] copying /home/user/ros2_ws/build/my_package/build/lib/my_package/simple.py -> /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[7.947s] copying /home/user/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[7.961s] byte-compiling /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/simple.py to simple.cpython-310.pyc
+[7.961s] byte-compiling /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[7.961s] running install_data
+[7.961s] creating /home/user/ros2_ws/install/my_package/share/ament_index
+[7.962s] creating /home/user/ros2_ws/install/my_package/share/ament_index/resource_index
+[7.962s] creating /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[7.962s] copying resource/my_package -> /home/user/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[7.962s] copying package.xml -> /home/user/ros2_ws/install/my_package/share/my_package
+[7.962s] copying launch/my_package_launch_file.launch.py -> /home/user/ros2_ws/install/my_package/share/my_package
+[7.962s] running install_egg_info
+[7.962s] Copying ../../build/my_package/my_package.egg-info to /home/user/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[7.963s] running install_scripts
+[8.005s] Installing simple_node script to /home/user/ros2_ws/install/my_package/lib/my_package
+[8.005s] writing list of installed files to '/home/user/ros2_ws/build/my_package/install.log'
+[8.171s] Invoked command in '/home/user/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/user/ros2_ws/build/my_package/prefix_override:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/user/ros2_ws/build/my_package/build install --record /home/user/ros2_ws/build/my_package/install.log --single-version-externally-managed

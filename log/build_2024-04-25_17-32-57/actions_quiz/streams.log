@@ -1,0 +1,39 @@
+[1.372s] Invoking command in '/home/user/ros2_ws/src/actions_quiz': PYTHONPATH=/home/user/ros2_ws/build/actions_quiz/prefix_override:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_quiz build --build-base /home/user/ros2_ws/build/actions_quiz/build install --record /home/user/ros2_ws/build/actions_quiz/install.log --single-version-externally-managed
+[1.895s] running egg_info
+[1.896s] creating ../../build/actions_quiz/actions_quiz.egg-info
+[1.896s] writing ../../build/actions_quiz/actions_quiz.egg-info/PKG-INFO
+[1.896s] writing dependency_links to ../../build/actions_quiz/actions_quiz.egg-info/dependency_links.txt
+[1.896s] writing entry points to ../../build/actions_quiz/actions_quiz.egg-info/entry_points.txt
+[1.897s] writing requirements to ../../build/actions_quiz/actions_quiz.egg-info/requires.txt
+[1.897s] writing top-level names to ../../build/actions_quiz/actions_quiz.egg-info/top_level.txt
+[1.897s] writing manifest file '../../build/actions_quiz/actions_quiz.egg-info/SOURCES.txt'
+[1.899s] reading manifest file '../../build/actions_quiz/actions_quiz.egg-info/SOURCES.txt'
+[1.901s] writing manifest file '../../build/actions_quiz/actions_quiz.egg-info/SOURCES.txt'
+[1.901s] running build
+[1.901s] running build_py
+[1.901s] creating /home/user/ros2_ws/build/actions_quiz/build
+[1.901s] creating /home/user/ros2_ws/build/actions_quiz/build/lib
+[1.901s] creating /home/user/ros2_ws/build/actions_quiz/build/lib/actions_quiz
+[1.901s] copying actions_quiz/action_client.py -> /home/user/ros2_ws/build/actions_quiz/build/lib/actions_quiz
+[1.902s] copying actions_quiz/__init__.py -> /home/user/ros2_ws/build/actions_quiz/build/lib/actions_quiz
+[1.902s] copying actions_quiz/action_server.py -> /home/user/ros2_ws/build/actions_quiz/build/lib/actions_quiz
+[1.902s] running install
+[1.903s] running install_lib
+[1.904s] creating /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz
+[1.904s] copying /home/user/ros2_ws/build/actions_quiz/build/lib/actions_quiz/action_client.py -> /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz
+[1.904s] copying /home/user/ros2_ws/build/actions_quiz/build/lib/actions_quiz/__init__.py -> /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz
+[1.905s] copying /home/user/ros2_ws/build/actions_quiz/build/lib/actions_quiz/action_server.py -> /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz
+[1.905s] byte-compiling /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz/action_client.py to action_client.cpython-310.pyc
+[1.906s] byte-compiling /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz/__init__.py to __init__.cpython-310.pyc
+[1.907s] byte-compiling /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz/action_server.py to action_server.cpython-310.pyc
+[1.907s] running install_data
+[1.908s] creating /home/user/ros2_ws/install/actions_quiz/share/ament_index
+[1.908s] creating /home/user/ros2_ws/install/actions_quiz/share/ament_index/resource_index
+[1.908s] creating /home/user/ros2_ws/install/actions_quiz/share/ament_index/resource_index/packages
+[1.908s] copying resource/actions_quiz -> /home/user/ros2_ws/install/actions_quiz/share/ament_index/resource_index/packages
+[1.909s] copying package.xml -> /home/user/ros2_ws/install/actions_quiz/share/actions_quiz
+[1.909s] running install_egg_info
+[1.911s] Copying ../../build/actions_quiz/actions_quiz.egg-info to /home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages/actions_quiz-0.0.0-py3.10.egg-info
+[1.913s] running install_scripts
+[1.954s] writing list of installed files to '/home/user/ros2_ws/build/actions_quiz/install.log'
+[1.988s] Invoked command in '/home/user/ros2_ws/src/actions_quiz' returned '0': PYTHONPATH=/home/user/ros2_ws/build/actions_quiz/prefix_override:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/actions_quiz build --build-base /home/user/ros2_ws/build/actions_quiz/build install --record /home/user/ros2_ws/build/actions_quiz/install.log --single-version-externally-managed

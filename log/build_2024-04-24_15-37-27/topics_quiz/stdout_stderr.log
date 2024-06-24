@@ -1,0 +1,39 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/topics_quiz/topics_quiz.egg-info
+writing ../../build/topics_quiz/topics_quiz.egg-info/PKG-INFO
+writing dependency_links to ../../build/topics_quiz/topics_quiz.egg-info/dependency_links.txt
+writing entry points to ../../build/topics_quiz/topics_quiz.egg-info/entry_points.txt
+writing requirements to ../../build/topics_quiz/topics_quiz.egg-info/requires.txt
+writing top-level names to ../../build/topics_quiz/topics_quiz.egg-info/top_level.txt
+writing manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+reading manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+writing manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/ros2_ws/build/topics_quiz/build
+creating /home/user/ros2_ws/build/topics_quiz/build/lib
+creating /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz
+copying topics_quiz/topics_quiz_node.py -> /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz
+copying topics_quiz/__init__.py -> /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz
+running install
+running install_lib
+creating /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+copying /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz/topics_quiz_node.py -> /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+copying /home/user/ros2_ws/build/topics_quiz/build/lib/topics_quiz/__init__.py -> /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+byte-compiling /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz/topics_quiz_node.py to topics_quiz_node.cpython-310.pyc
+byte-compiling /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/user/ros2_ws/install/topics_quiz/share/ament_index
+creating /home/user/ros2_ws/install/topics_quiz/share/ament_index/resource_index
+creating /home/user/ros2_ws/install/topics_quiz/share/ament_index/resource_index/packages
+copying resource/topics_quiz -> /home/user/ros2_ws/install/topics_quiz/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/ros2_ws/install/topics_quiz/share/topics_quiz
+creating /home/user/ros2_ws/install/topics_quiz/share/topics_quiz/launch
+copying launch/topics_quiz.launch.py -> /home/user/ros2_ws/install/topics_quiz/share/topics_quiz/launch
+running install_egg_info
+Copying ../../build/topics_quiz/topics_quiz.egg-info to /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz-0.0.0-py3.10.egg-info
+running install_scripts
+Installing topics_quiz_node script to /home/user/ros2_ws/install/topics_quiz/lib/topics_quiz
+writing list of installed files to '/home/user/ros2_ws/build/topics_quiz/install.log'

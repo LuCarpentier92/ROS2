@@ -1,0 +1,21 @@
+[16.106s] Invoking command in '/home/user/ros2_ws/src/publisher_pkg': PYTHONPATH=/home/user/ros2_ws/src/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/publisher_pkg build --build-base /home/user/ros2_ws/src/build/publisher_pkg/build install --prefix /home/user/ros2_ws/src/install/publisher_pkg --record /home/user/ros2_ws/src/build/publisher_pkg/install.log --single-version-externally-managed
+[19.103s] running egg_info
+[19.104s] writing ../build/publisher_pkg/publisher_pkg.egg-info/PKG-INFO
+[19.104s] writing dependency_links to ../build/publisher_pkg/publisher_pkg.egg-info/dependency_links.txt
+[19.105s] writing entry points to ../build/publisher_pkg/publisher_pkg.egg-info/entry_points.txt
+[19.107s] writing requirements to ../build/publisher_pkg/publisher_pkg.egg-info/requires.txt
+[19.107s] writing top-level names to ../build/publisher_pkg/publisher_pkg.egg-info/top_level.txt
+[19.109s] reading manifest file '../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[19.113s] writing manifest file '../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[19.113s] running build
+[19.113s] running build_py
+[19.113s] running install
+[19.114s] running install_lib
+[19.115s] running install_data
+[19.116s] running install_egg_info
+[19.119s] removing '/home/user/ros2_ws/src/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[19.120s] Copying ../build/publisher_pkg/publisher_pkg.egg-info to /home/user/ros2_ws/src/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info
+[19.121s] running install_scripts
+[19.222s] Installing simple_publisher script to /home/user/ros2_ws/src/install/publisher_pkg/lib/publisher_pkg
+[19.223s] writing list of installed files to '/home/user/ros2_ws/src/build/publisher_pkg/install.log'
+[19.317s] Invoked command in '/home/user/ros2_ws/src/publisher_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/src/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/publisher_pkg build --build-base /home/user/ros2_ws/src/build/publisher_pkg/build install --prefix /home/user/ros2_ws/src/install/publisher_pkg --record /home/user/ros2_ws/src/build/publisher_pkg/install.log --single-version-externally-managed

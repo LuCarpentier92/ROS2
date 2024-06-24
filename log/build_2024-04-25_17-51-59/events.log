@@ -1,0 +1,797 @@
+[0.000000] (-) TimerEvent: {}
+[0.001028] (-) JobUnselected: {'identifier': 'actions_quiz'}
+[0.002430] (-) JobUnselected: {'identifier': 'basics_ros2_multithreading'}
+[0.002558] (-) JobUnselected: {'identifier': 'client_pkg'}
+[0.002640] (-) JobUnselected: {'identifier': 'example36_pkg'}
+[0.002761] (-) JobUnselected: {'identifier': 'exercise31_pkg'}
+[0.002996] (-) JobUnselected: {'identifier': 'exercise42_pkg'}
+[0.003053] (-) JobUnselected: {'identifier': 'movement_pkg'}
+[0.003109] (-) JobUnselected: {'identifier': 'my_action_client'}
+[0.003150] (-) JobUnselected: {'identifier': 'my_action_server'}
+[0.003190] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003231] (-) JobUnselected: {'identifier': 'publisher_pkg'}
+[0.003271] (-) JobUnselected: {'identifier': 'subscriber_pkg'}
+[0.003306] (-) JobUnselected: {'identifier': 'topics_quiz'}
+[0.003348] (actions_quiz_msg) JobQueued: {'identifier': 'actions_quiz_msg', 'dependencies': OrderedDict()}
+[0.003380] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.003406] (actions_quiz_msg) JobStarted: {'identifier': 'actions_quiz_msg'}
+[0.038249] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.044502] (actions_quiz_msg) JobProgress: {'identifier': 'actions_quiz_msg', 'progress': 'cmake'}
+[0.045548] (actions_quiz_msg) JobProgress: {'identifier': 'actions_quiz_msg', 'progress': 'build'}
+[0.046642] (actions_quiz_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/actions_quiz_msg', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/actions_quiz_msg', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://3_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('PWD', '/home/user/ros2_ws/build/actions_quiz_msg'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/basics_ros2_multithreading:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/basics_ros2_multithreading:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/services_pkg:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_client/lib/python3.10/site-packages:/home/user/ros2_ws/install/movement_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/client_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '3_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_simulation:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/actions_quiz_msg/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/home/user/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'e4d72c61-6ce4-495b-bc92-869017bdc2ae'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25507'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.058703] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.068613] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.068702] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://3_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('PWD', '/home/user/ros2_ws/build/custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/basics_ros2_multithreading:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/basics_ros2_multithreading:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/services_pkg:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_client/lib/python3.10/site-packages:/home/user/ros2_ws/install/movement_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/client_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '3_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_simulation:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/actions_quiz_msg/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/home/user/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'e4d72c61-6ce4-495b-bc92-869017bdc2ae'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25507'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099137] (-) TimerEvent: {}
+[0.108550] (actions_quiz_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.176464] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__cpp\n'}
+[0.199290] (-) TimerEvent: {}
+[0.230494] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[0.282718] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.299416] (-) TimerEvent: {}
+[0.399805] (-) TimerEvent: {}
+[0.403425] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.463342] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.468137] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.478580] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.499936] (-) TimerEvent: {}
+[0.501933] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.533177] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600078] (-) TimerEvent: {}
+[0.650746] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.654604] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700203] (-) TimerEvent: {}
+[0.800606] (-) TimerEvent: {}
+[0.818843] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.819474] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[0.819811] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[0.820112] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[0.824158] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.825387] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.868669] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[0.901159] (-) TimerEvent: {}
+[0.916967] (custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.964063] (custom_interfaces) StdoutLine: {'line': b'[ 34%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.966213] (actions_quiz_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000436] (custom_interfaces) StdoutLine: {'line': b'[ 44%] Built target custom_interfaces__rosidl_generator_c\n'}
+[1.001266] (-) TimerEvent: {}
+[1.050350] (custom_interfaces) StdoutLine: {'line': b'[ 55%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.101420] (-) TimerEvent: {}
+[1.113918] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[1.151747] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.187447] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces\n'}
+[1.201708] (-) TimerEvent: {}
+[1.230209] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__py\n'}
+[1.277105] (actions_quiz_msg) StdoutLine: {'line': b'-- Found action_msgs: 1.2.0 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[1.279925] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_generator_py\n'}
+[1.302320] (-) TimerEvent: {}
+[1.330305] (custom_interfaces) StdoutLine: {'line': b'[ 91%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.382573] (custom_interfaces) StdoutLine: {'line': b'[ 95%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.394566] (actions_quiz_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.402951] (-) TimerEvent: {}
+[1.413749] (actions_quiz_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.430096] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.457596] (custom_interfaces) CommandEnded: {'returncode': 0}
+[1.503252] (-) TimerEvent: {}
+[1.604211] (-) TimerEvent: {}
+[1.708373] (-) TimerEvent: {}
+[1.809565] (-) TimerEvent: {}
+[1.910970] (-) TimerEvent: {}
+[1.925739] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[1.948791] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/custom_interfaces'], 'cwd': '/home/user/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://3_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('PWD', '/home/user/ros2_ws/build/custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/basics_ros2_multithreading:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/basics_ros2_multithreading:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/services_pkg:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_client/lib/python3.10/site-packages:/home/user/ros2_ws/install/movement_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/client_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '3_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_simulation:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/actions_quiz_msg/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/home/user/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'e4d72c61-6ce4-495b-bc92-869017bdc2ae'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25507'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[1.961554] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.962024] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[1.962524] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.962860] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.963084] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.963243] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.h\n'}
+[1.963384] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.h\n'}
+[1.963472] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.c\n'}
+[1.963558] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.h\n'}
+[1.963684] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.h\n'}
+[1.963820] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.963971] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[1.964067] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.c\n'}
+[1.964147] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.h\n'}
+[1.964248] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.h\n'}
+[1.964432] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.h\n'}
+[1.964558] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.964680] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/age.h\n'}
+[1.964761] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[1.964860] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[1.965159] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__functions.h\n'}
+[1.965392] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__functions.c\n'}
+[1.965541] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.h\n'}
+[1.965652] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__struct.h\n'}
+[1.965744] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/move.h\n'}
+[1.965850] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[1.965953] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[1.966077] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[1.966188] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.966291] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.966394] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.966496] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_c.h\n'}
+[1.966611] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.966707] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[1.966795] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_c.h\n'}
+[1.966876] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.966955] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[1.967033] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[1.967139] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[1.967259] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.967432] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.967713] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.968010] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.968210] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp\n'}
+[1.968463] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp\n'}
+[1.968658] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp\n'}
+[1.968835] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.hpp\n'}
+[1.969311] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.969447] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[1.969542] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__traits.hpp\n'}
+[1.969642] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.hpp\n'}
+[1.969752] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__builder.hpp\n'}
+[1.969984] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/age.hpp\n'}
+[1.970298] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[1.970513] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[1.970644] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__traits.hpp\n'}
+[1.970756] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__struct.hpp\n'}
+[1.970863] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__builder.hpp\n'}
+[1.970988] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/move.hpp\n'}
+[1.971114] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.976406] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.976629] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.976774] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[1.976927] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.977080] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.977216] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[1.977352] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.977482] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[1.977617] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.977750] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[1.977877] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[1.978012] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps\n'}
+[1.978125] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.986869] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.987075] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.987190] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.987299] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.987407] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.c\n'}
+[1.987512] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_c.h\n'}
+[1.987617] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.987721] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[1.987860] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.c\n'}
+[1.987968] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_c.h\n'}
+[1.988072] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.988176] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[1.988311] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[1.988421] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[1.988546] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.c\n'}
+[1.988657] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.988764] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[1.988877] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[1.988997] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[1.989126] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[1.989236] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.cpp\n'}
+[1.989344] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.989449] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[1.989552] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[1.989662] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.989766] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.cpp\n'}
+[1.989898] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[1.990030] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[1.990152] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.990255] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.cpp\n'}
+[1.990361] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.990469] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.990577] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[1.990685] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[1.990797] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.990902] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.991016] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.991120] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.991231] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.991335] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[1.991440] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[1.991554] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message_s.c\n'}
+[1.991661] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[1.991766] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message.py\n'}
+[1.991867] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.991986] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[1.992096] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age_s.c\n'}
+[1.992209] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age.py\n'}
+[1.992401] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[1.992535] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.992655] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[1.992813] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.992950] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[1.993088] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.993209] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.993323] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.993445] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action\n'}
+[1.993552] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move.py\n'}
+[1.993650] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py\n'}
+[1.993750] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_move_s.c\n'}
+[2.001368] (actions_quiz_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.011061] (-) TimerEvent: {}
+[2.065070] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[2.065380] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...\n"}
+[2.065543] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[2.065667] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[2.072255] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.072807] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.073342] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.073843] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[2.074177] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Age.idl\n'}
+[2.074451] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage.idl\n'}
+[2.074751] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.idl\n'}
+[2.075003] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Age.msg\n'}
+[2.075262] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage.srv\n'}
+[2.075533] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage_Request.msg\n'}
+[2.075879] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MyCustomServiceMessage_Response.msg\n'}
+[2.076033] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/Move.action\n'}
+[2.076151] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[2.076248] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[2.076408] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[2.076578] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.076762] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[2.076969] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[2.077095] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[2.077211] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[2.077326] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[2.077441] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[2.077573] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[2.077690] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[2.077807] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.077930] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.078227] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.078447] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.078598] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.078783] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.078937] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.079045] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.079171] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.085459] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.085621] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.085745] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.087314] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.087432] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.087638] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.087809] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.088937] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.089311] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.089726] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.090102] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.090272] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.090497] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.090725] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.090868] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.091160] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[2.091282] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[2.091474] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[2.091602] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.111182] (-) TimerEvent: {}
+[2.211888] (-) TimerEvent: {}
+[2.315144] (-) TimerEvent: {}
+[2.415569] (-) TimerEvent: {}
+[2.521036] (-) TimerEvent: {}
+[2.621632] (-) TimerEvent: {}
+[2.651194] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[2.724374] (-) TimerEvent: {}
+[2.735776] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.826539] (-) TimerEvent: {}
+[2.927420] (-) TimerEvent: {}
+[2.993960] (actions_quiz_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.027544] (-) TimerEvent: {}
+[3.044489] (actions_quiz_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.095663] (actions_quiz_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.096863] (actions_quiz_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.097029] (actions_quiz_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.127665] (-) TimerEvent: {}
+[3.196081] (actions_quiz_msg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.204023] (actions_quiz_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.208389] (actions_quiz_msg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.227781] (-) TimerEvent: {}
+[3.242524] (actions_quiz_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.250251] (actions_quiz_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.316166] (actions_quiz_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.321780] (actions_quiz_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/actions_quiz_msg\n'}
+[3.327895] (-) TimerEvent: {}
+[3.404509] (actions_quiz_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.428038] (-) TimerEvent: {}
+[3.528479] (-) TimerEvent: {}
+[3.628854] (-) TimerEvent: {}
+[3.729249] (-) TimerEvent: {}
+[3.829640] (-) TimerEvent: {}
+[3.930027] (-) TimerEvent: {}
+[4.030384] (-) TimerEvent: {}
+[4.130752] (-) TimerEvent: {}
+[4.231147] (-) TimerEvent: {}
+[4.331563] (-) TimerEvent: {}
+[4.431980] (-) TimerEvent: {}
+[4.532278] (-) TimerEvent: {}
+[4.544933] (actions_quiz_msg) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__cpp\n'}
+[4.595478] (actions_quiz_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[4.616848] (actions_quiz_msg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.632668] (-) TimerEvent: {}
+[4.733043] (-) TimerEvent: {}
+[4.833520] (-) TimerEvent: {}
+[4.933911] (-) TimerEvent: {}
+[5.034335] (-) TimerEvent: {}
+[5.134756] (-) TimerEvent: {}
+[5.235125] (-) TimerEvent: {}
+[5.335597] (-) TimerEvent: {}
+[5.435960] (-) TimerEvent: {}
+[5.503067] (actions_quiz_msg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/age__type_support.cpp.o\x1b[0m\n'}
+[5.536386] (-) TimerEvent: {}
+[5.636785] (-) TimerEvent: {}
+[5.737210] (-) TimerEvent: {}
+[5.837580] (-) TimerEvent: {}
+[5.937974] (-) TimerEvent: {}
+[6.038373] (-) TimerEvent: {}
+[6.082482] (actions_quiz_msg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/move__type_support.cpp.o\x1b[0m\n'}
+[6.138523] (-) TimerEvent: {}
+[6.238989] (-) TimerEvent: {}
+[6.339419] (-) TimerEvent: {}
+[6.439845] (-) TimerEvent: {}
+[6.540242] (-) TimerEvent: {}
+[6.640688] (-) TimerEvent: {}
+[6.741114] (-) TimerEvent: {}
+[6.841521] (-) TimerEvent: {}
+[6.941966] (-) TimerEvent: {}
+[7.004932] (actions_quiz_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[7.042149] (-) TimerEvent: {}
+[7.142563] (-) TimerEvent: {}
+[7.242978] (-) TimerEvent: {}
+[7.343448] (-) TimerEvent: {}
+[7.443974] (-) TimerEvent: {}
+[7.544391] (-) TimerEvent: {}
+[7.581674] (actions_quiz_msg) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.644605] (-) TimerEvent: {}
+[7.701916] (actions_quiz_msg) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.748439] (-) TimerEvent: {}
+[7.849402] (-) TimerEvent: {}
+[7.952376] (-) TimerEvent: {}
+[8.052765] (-) TimerEvent: {}
+[8.153100] (-) TimerEvent: {}
+[8.220054] (actions_quiz_msg) StdoutLine: {'line': b'running egg_info\n'}
+[8.220897] (actions_quiz_msg) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[8.221179] (actions_quiz_msg) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[8.221367] (actions_quiz_msg) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[8.221540] (actions_quiz_msg) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[8.221838] (actions_quiz_msg) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[8.224846] (actions_quiz_msg) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[8.225645] (actions_quiz_msg) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[8.253228] (-) TimerEvent: {}
+[8.266143] (actions_quiz_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[8.283054] (actions_quiz_msg) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.353358] (-) TimerEvent: {}
+[8.453793] (-) TimerEvent: {}
+[8.554195] (-) TimerEvent: {}
+[8.654674] (-) TimerEvent: {}
+[8.755109] (-) TimerEvent: {}
+[8.855547] (-) TimerEvent: {}
+[8.955963] (-) TimerEvent: {}
+[9.056487] (-) TimerEvent: {}
+[9.156896] (-) TimerEvent: {}
+[9.253861] (actions_quiz_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/age__type_support.cpp.o\x1b[0m\n'}
+[9.257005] (-) TimerEvent: {}
+[9.357352] (-) TimerEvent: {}
+[9.457790] (-) TimerEvent: {}
+[9.558231] (-) TimerEvent: {}
+[9.658661] (-) TimerEvent: {}
+[9.759104] (-) TimerEvent: {}
+[9.855318] (actions_quiz_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[9.861049] (-) TimerEvent: {}
+[9.961445] (-) TimerEvent: {}
+[10.061876] (-) TimerEvent: {}
+[10.162297] (-) TimerEvent: {}
+[10.262746] (-) TimerEvent: {}
+[10.363147] (-) TimerEvent: {}
+[10.463577] (-) TimerEvent: {}
+[10.564037] (-) TimerEvent: {}
+[10.664548] (-) TimerEvent: {}
+[10.728844] (actions_quiz_msg) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[10.764678] (-) TimerEvent: {}
+[10.865074] (-) TimerEvent: {}
+[10.965419] (-) TimerEvent: {}
+[11.068418] (-) TimerEvent: {}
+[11.168937] (-) TimerEvent: {}
+[11.269336] (-) TimerEvent: {}
+[11.343556] (actions_quiz_msg) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.372384] (-) TimerEvent: {}
+[11.459070] (actions_quiz_msg) StdoutLine: {'line': b'[ 23%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.472599] (-) TimerEvent: {}
+[11.477038] (actions_quiz_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.572720] (-) TimerEvent: {}
+[11.673105] (-) TimerEvent: {}
+[11.773500] (-) TimerEvent: {}
+[11.873980] (-) TimerEvent: {}
+[11.974387] (-) TimerEvent: {}
+[12.074768] (-) TimerEvent: {}
+[12.147687] (actions_quiz_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/age__type_support.cpp.o\x1b[0m\n'}
+[12.174899] (-) TimerEvent: {}
+[12.275305] (-) TimerEvent: {}
+[12.375711] (-) TimerEvent: {}
+[12.476063] (-) TimerEvent: {}
+[12.559020] (actions_quiz_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/move__type_support.cpp.o\x1b[0m\n'}
+[12.576156] (-) TimerEvent: {}
+[12.676568] (-) TimerEvent: {}
+[12.776984] (-) TimerEvent: {}
+[12.877417] (-) TimerEvent: {}
+[12.977849] (-) TimerEvent: {}
+[13.078298] (-) TimerEvent: {}
+[13.178688] (-) TimerEvent: {}
+[13.238265] (actions_quiz_msg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[13.278829] (-) TimerEvent: {}
+[13.379239] (-) TimerEvent: {}
+[13.479624] (-) TimerEvent: {}
+[13.580043] (-) TimerEvent: {}
+[13.647383] (actions_quiz_msg) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.683035] (-) TimerEvent: {}
+[13.722633] (actions_quiz_msg) StdoutLine: {'line': b'[ 34%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[13.740508] (actions_quiz_msg) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.783156] (-) TimerEvent: {}
+[13.883550] (-) TimerEvent: {}
+[13.983982] (-) TimerEvent: {}
+[14.084378] (-) TimerEvent: {}
+[14.184753] (-) TimerEvent: {}
+[14.285319] (-) TimerEvent: {}
+[14.385706] (-) TimerEvent: {}
+[14.486085] (-) TimerEvent: {}
+[14.586469] (-) TimerEvent: {}
+[14.686849] (-) TimerEvent: {}
+[14.787289] (-) TimerEvent: {}
+[14.887730] (-) TimerEvent: {}
+[14.954988] (actions_quiz_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/age__functions.c.o\x1b[0m\n'}
+[14.987882] (-) TimerEvent: {}
+[15.033563] (actions_quiz_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/move__functions.c.o\x1b[0m\n'}
+[15.088029] (-) TimerEvent: {}
+[15.188574] (-) TimerEvent: {}
+[15.256794] (actions_quiz_msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/my_custom_service_message__functions.c.o\x1b[0m\n'}
+[15.288699] (-) TimerEvent: {}
+[15.349470] (actions_quiz_msg) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[15.388834] (-) TimerEvent: {}
+[15.418584] (actions_quiz_msg) StdoutLine: {'line': b'[ 44%] Built target custom_interfaces__rosidl_generator_c\n'}
+[15.435635] (actions_quiz_msg) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.488963] (-) TimerEvent: {}
+[15.589456] (-) TimerEvent: {}
+[15.690038] (-) TimerEvent: {}
+[15.790408] (-) TimerEvent: {}
+[15.890778] (-) TimerEvent: {}
+[15.991180] (-) TimerEvent: {}
+[16.091728] (-) TimerEvent: {}
+[16.196206] (-) TimerEvent: {}
+[16.296620] (-) TimerEvent: {}
+[16.363460] (actions_quiz_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/age__type_support_c.cpp.o\x1b[0m\n'}
+[16.396753] (-) TimerEvent: {}
+[16.497169] (-) TimerEvent: {}
+[16.597576] (-) TimerEvent: {}
+[16.697979] (-) TimerEvent: {}
+[16.798385] (-) TimerEvent: {}
+[16.873535] (actions_quiz_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[16.898584] (-) TimerEvent: {}
+[16.998986] (-) TimerEvent: {}
+[17.099382] (-) TimerEvent: {}
+[17.199771] (-) TimerEvent: {}
+[17.300159] (-) TimerEvent: {}
+[17.400588] (-) TimerEvent: {}
+[17.477447] (actions_quiz_msg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/my_custom_service_message__type_support_c.cpp.o\x1b[0m\n'}
+[17.500720] (-) TimerEvent: {}
+[17.601406] (-) TimerEvent: {}
+[17.701905] (-) TimerEvent: {}
+[17.802319] (-) TimerEvent: {}
+[17.902754] (-) TimerEvent: {}
+[18.003128] (-) TimerEvent: {}
+[18.016503] (actions_quiz_msg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.104528] (-) TimerEvent: {}
+[18.127924] (actions_quiz_msg) StdoutLine: {'line': b'[ 55%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.151944] (actions_quiz_msg) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.204650] (-) TimerEvent: {}
+[18.305116] (-) TimerEvent: {}
+[18.406018] (-) TimerEvent: {}
+[18.506386] (-) TimerEvent: {}
+[18.606780] (-) TimerEvent: {}
+[18.707164] (-) TimerEvent: {}
+[18.807576] (-) TimerEvent: {}
+[18.813954] (actions_quiz_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/age__type_support.cpp.o\x1b[0m\n'}
+[18.868200] (actions_quiz_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/move__type_support.cpp.o\x1b[0m\n'}
+[18.907713] (-) TimerEvent: {}
+[18.951669] (actions_quiz_msg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/my_custom_service_message__type_support.cpp.o\x1b[0m\n'}
+[19.005463] (actions_quiz_msg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.008425] (-) TimerEvent: {}
+[19.082055] (actions_quiz_msg) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[19.101125] (actions_quiz_msg) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[19.108569] (-) TimerEvent: {}
+[19.208937] (-) TimerEvent: {}
+[19.309321] (-) TimerEvent: {}
+[19.409704] (-) TimerEvent: {}
+[19.510072] (-) TimerEvent: {}
+[19.610609] (-) TimerEvent: {}
+[19.710981] (-) TimerEvent: {}
+[19.811345] (-) TimerEvent: {}
+[19.915982] (-) TimerEvent: {}
+[19.988835] (actions_quiz_msg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/age__type_support.c.o\x1b[0m\n'}
+[20.016770] (-) TimerEvent: {}
+[20.049564] (actions_quiz_msg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/move__type_support.c.o\x1b[0m\n'}
+[20.116896] (-) TimerEvent: {}
+[20.128453] (actions_quiz_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/my_custom_service_message__type_support.c.o\x1b[0m\n'}
+[20.191415] (actions_quiz_msg) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.217647] (-) TimerEvent: {}
+[20.251606] (actions_quiz_msg) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[20.284857] (actions_quiz_msg) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces\n'}
+[20.317786] (-) TimerEvent: {}
+[20.319842] (actions_quiz_msg) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.417911] (-) TimerEvent: {}
+[20.519350] (-) TimerEvent: {}
+[20.619777] (-) TimerEvent: {}
+[20.720268] (-) TimerEvent: {}
+[20.820661] (-) TimerEvent: {}
+[20.921024] (-) TimerEvent: {}
+[21.021422] (-) TimerEvent: {}
+[21.121811] (-) TimerEvent: {}
+[21.222208] (-) TimerEvent: {}
+[21.322874] (-) TimerEvent: {}
+[21.423269] (-) TimerEvent: {}
+[21.523776] (-) TimerEvent: {}
+[21.624181] (-) TimerEvent: {}
+[21.724627] (-) TimerEvent: {}
+[21.825032] (-) TimerEvent: {}
+[21.925413] (-) TimerEvent: {}
+[22.025820] (-) TimerEvent: {}
+[22.126233] (-) TimerEvent: {}
+[22.226654] (-) TimerEvent: {}
+[22.327180] (-) TimerEvent: {}
+[22.370848] (actions_quiz_msg) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__py\n'}
+[22.403803] (actions_quiz_msg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_age_s.c.o\x1b[0m\n'}
+[22.427311] (-) TimerEvent: {}
+[22.527704] (-) TimerEvent: {}
+[22.583683] (actions_quiz_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_move_s.c.o\x1b[0m\n'}
+[22.627821] (-) TimerEvent: {}
+[22.728205] (-) TimerEvent: {}
+[22.824915] (actions_quiz_msg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_my_custom_service_message_s.c.o\x1b[0m\n'}
+[22.828445] (-) TimerEvent: {}
+[22.928791] (-) TimerEvent: {}
+[23.020775] (actions_quiz_msg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[23.029206] (-) TimerEvent: {}
+[23.091221] (actions_quiz_msg) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_generator_py\n'}
+[23.129293] (-) TimerEvent: {}
+[23.131628] (actions_quiz_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[23.229426] (-) TimerEvent: {}
+[23.330059] (-) TimerEvent: {}
+[23.365974] (actions_quiz_msg) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.430398] (-) TimerEvent: {}
+[23.437570] (actions_quiz_msg) StdoutLine: {'line': b'[ 91%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.476232] (actions_quiz_msg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[23.530539] (-) TimerEvent: {}
+[23.631006] (-) TimerEvent: {}
+[23.709297] (actions_quiz_msg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[23.731124] (-) TimerEvent: {}
+[23.785212] (actions_quiz_msg) StdoutLine: {'line': b'[ 95%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[23.822788] (actions_quiz_msg) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[23.831265] (-) TimerEvent: {}
+[23.931989] (-) TimerEvent: {}
+[24.032393] (-) TimerEvent: {}
+[24.067616] (actions_quiz_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.132526] (-) TimerEvent: {}
+[24.138709] (actions_quiz_msg) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[24.154779] (actions_quiz_msg) CommandEnded: {'returncode': 0}
+[24.232651] (-) TimerEvent: {}
+[24.333018] (-) TimerEvent: {}
+[24.434510] (-) TimerEvent: {}
+[24.482805] (actions_quiz_msg) JobProgress: {'identifier': 'actions_quiz_msg', 'progress': 'install'}
+[24.484275] (actions_quiz_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/actions_quiz_msg'], 'cwd': '/home/user/ros2_ws/build/actions_quiz_msg', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://3_simulation:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '3_xterm'), ('PWD', '/home/user/ros2_ws/build/actions_quiz_msg'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/basics_ros2_multithreading:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/actions_quiz_msg:/home/simulations/ros2_sims_ws/install/turtlebot3:/home/simulations/ros2_sims_ws/install/turtlebot3_simulations:/home/simulations/ros2_sims_ws/install/turtlebot3_navigation2:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs:/home/simulations/ros2_sims_ws/install/turtlebot3_gazebo:/home/simulations/ros2_sims_ws/install/turtlebot3_bringup:/home/simulations/ros2_sims_ws/install/turtlebot3_description:/home/simulations/ros2_sims_ws/install/turtlebot3_cartographer:/home/simulations/ros2_sims_ws/install/turtlebot3_as:/home/simulations/ros2_sims_ws/install/t3_action_msg:/home/simulations/ros2_sims_ws/install/dynamixel_sdk:/home/user/ros2_ws/install/custom_interfaces:/home/user/ros2_ws/install/basics_ros2_multithreading:/home/user/ros2_ws/install/actions_quiz:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop:/home/simulations/ros2_sims_ws/install/turtlebot3_example:/home/simulations/ros2_sims_ws/install/services_pkg:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/actions_quiz/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/t3_action_msg/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/services_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/publisher_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages:/home/user/ros2_ws/install/my_action_client/lib/python3.10/site-packages:/home/user/ros2_ws/install/movement_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/client_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '3_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://3_simulation:11311'), ('ROS_HOSTNAME', '3_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/actions_quiz_msg/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/turtlebot3_msgs/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/simulations/ros2_sims_ws/install/dynamixel_sdk/lib:/home/user/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', 'e4d72c61-6ce4-495b-bc92-869017bdc2ae'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25507'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20003'), ('_', '/usr/bin/env')]), 'shell': False}
+[24.496674] (actions_quiz_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.497002] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[24.497285] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces\n'}
+[24.497604] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv\n'}
+[24.497954] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[24.498318] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.h\n'}
+[24.498836] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.h\n'}
+[24.499380] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__functions.c\n'}
+[24.500957] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.h\n'}
+[24.501505] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.h\n'}
+[24.501993] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg\n'}
+[24.502470] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[24.502909] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.c\n'}
+[24.503474] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.h\n'}
+[24.503970] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__functions.h\n'}
+[24.504537] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.h\n'}
+[24.504925] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.505238] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/age.h\n'}
+[24.505443] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action\n'}
+[24.505557] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[24.508618] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__functions.h\n'}
+[24.509143] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__functions.c\n'}
+[24.509329] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.h\n'}
+[24.509446] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__struct.h\n'}
+[24.509566] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/move.h\n'}
+[24.509682] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/library_path.sh\n'}
+[24.509795] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/library_path.dsv\n'}
+[24.509906] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[24.510023] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[24.510140] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces\n'}
+[24.510247] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv\n'}
+[24.510362] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[24.510476] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_c.h\n'}
+[24.510595] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg\n'}
+[24.510710] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[24.510821] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_c.h\n'}
+[24.510937] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.511149] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action\n'}
+[24.511490] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[24.511664] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[24.511783] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[24.511898] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.512081] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces\n'}
+[24.512273] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv\n'}
+[24.512765] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[24.513188] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__traits.hpp\n'}
+[24.513558] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__builder.hpp\n'}
+[24.513744] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__struct.hpp\n'}
+[24.513828] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/my_custom_service_message.hpp\n'}
+[24.514066] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg\n'}
+[24.514186] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[24.514374] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__traits.hpp\n'}
+[24.514540] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__struct.hpp\n'}
+[24.514667] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__builder.hpp\n'}
+[24.514737] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/age.hpp\n'}
+[24.514901] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action\n'}
+[24.515024] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[24.515184] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__traits.hpp\n'}
+[24.515299] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__struct.hpp\n'}
+[24.515480] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__builder.hpp\n'}
+[24.515740] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/move.hpp\n'}
+[24.516077] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces\n'}
+[24.516259] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv\n'}
+[24.516406] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[24.516520] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[24.516625] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.516729] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg\n'}
+[24.516833] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[24.516969] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.517177] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[24.517312] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.517445] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action\n'}
+[24.517627] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[24.517755] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps\n'}
+[24.517917] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.518056] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.518165] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.518314] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces\n'}
+[24.518433] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv\n'}
+[24.518542] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[24.518648] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.c\n'}
+[24.518785] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_c.h\n'}
+[24.518972] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg\n'}
+[24.519109] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[24.519219] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.c\n'}
+[24.519333] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_c.h\n'}
+[24.519439] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.519541] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action\n'}
+[24.519647] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[24.519815] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[24.519973] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.c\n'}
+[24.520082] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[24.520184] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.520314] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[24.520543] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[24.520729] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces\n'}
+[24.520846] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv\n'}
+[24.520986] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[24.521127] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__type_support.cpp\n'}
+[24.521286] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/srv/detail/my_custom_service_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.521393] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg\n'}
+[24.521760] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[24.521918] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.522071] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/msg/detail/age__type_support.cpp\n'}
+[24.522206] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action\n'}
+[24.522318] (actions_quiz_msg) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[24.522429] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.522589] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/include/custom_interfaces/custom_interfaces/action/detail/move__type_support.cpp\n'}
+[24.522699] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[24.523682] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.523929] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[24.524046] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[24.524206] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/pythonpath.sh\n'}
+[24.524363] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[24.524572] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[24.526356] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[24.526501] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[24.526656] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[24.526885] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[24.527364] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[24.527546] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[24.527700] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message_s.c\n'}
+[24.527854] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[24.528365] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message.py\n'}
+[24.529762] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.529907] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[24.530258] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age_s.c\n'}
+[24.530479] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age.py\n'}
+[24.530983] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[24.531325] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.531506] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[24.531696] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[24.531886] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[24.532069] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.532219] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.532423] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.532598] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/action\n'}
+[24.532797] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/action/_move.py\n'}
+[24.532979] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py\n'}
+[24.533169] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/action/_move_s.c\n'}
+[24.534630] (-) TimerEvent: {}
+[24.615438] (actions_quiz_msg) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[24.615724] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[24.615873] (actions_quiz_msg) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/action'...\n"}
+[24.615989] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py'...\n"}
+[24.616101] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/action/_move.py'...\n"}
+[24.616207] (actions_quiz_msg) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[24.616352] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...\n"}
+[24.616467] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/msg/_age.py'...\n"}
+[24.616570] (actions_quiz_msg) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[24.616684] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...\n"}
+[24.616795] (actions_quiz_msg) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/srv/_my_custom_service_message.py'...\n"}
+[24.622865] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.623752] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.623978] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.624264] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.624577] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.625204] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[24.625432] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[24.625984] (actions_quiz_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/actions_quiz_msg/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[24.626214] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/msg/Age.idl\n'}
+[24.626459] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/srv/MyCustomServiceMessage.idl\n'}
+[24.626796] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/action/Move.idl\n'}
+[24.627042] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/msg/Age.msg\n'}
+[24.627277] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/srv/MyCustomServiceMessage.srv\n'}
+[24.627560] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/srv/MyCustomServiceMessage_Request.msg\n'}
+[24.627788] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/srv/MyCustomServiceMessage_Response.msg\n'}
+[24.627974] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/action/Move.action\n'}
+[24.628173] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[24.628403] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[24.628576] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[24.628731] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[24.628950] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/path.sh\n'}
+[24.629207] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/environment/path.dsv\n'}
+[24.629439] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/local_setup.bash\n'}
+[24.629679] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/local_setup.sh\n'}
+[24.629900] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/local_setup.zsh\n'}
+[24.630142] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/local_setup.dsv\n'}
+[24.630381] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/package.dsv\n'}
+[24.630637] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[24.630980] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[24.631246] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.631535] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.631819] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.632098] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[24.636350] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.636538] (-) TimerEvent: {}
+[24.636741] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.636924] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.637059] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.637238] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[24.637410] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.637550] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.637705] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.637856] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[24.637979] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.638129] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[24.638254] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.638378] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[24.638505] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.638624] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.638749] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.638875] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.638999] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.639136] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.639264] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[24.639394] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[24.639519] (actions_quiz_msg) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/actions_quiz_msg/share/custom_interfaces/package.xml\n'}
+[24.641305] (actions_quiz_msg) CommandEnded: {'returncode': 0}
+[24.736679] (-) TimerEvent: {}
+[24.837037] (-) TimerEvent: {}
+[24.937572] (-) TimerEvent: {}
+[25.002011] (actions_quiz_msg) JobEnded: {'identifier': 'actions_quiz_msg', 'rc': 0}
+[25.004242] (-) EventReactorShutdown: {}

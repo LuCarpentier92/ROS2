@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/topics_quiz/topics_quiz.egg-info/PKG-INFO
+writing dependency_links to ../../build/topics_quiz/topics_quiz.egg-info/dependency_links.txt
+writing entry points to ../../build/topics_quiz/topics_quiz.egg-info/entry_points.txt
+writing requirements to ../../build/topics_quiz/topics_quiz.egg-info/requires.txt
+writing top-level names to ../../build/topics_quiz/topics_quiz.egg-info/top_level.txt
+reading manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+writing manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/topics_quiz/topics_quiz.egg-info to /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz-0.0.0-py3.10.egg-info
+running install_scripts
+Installing topics_quiz_node script to /home/user/ros2_ws/install/topics_quiz/lib/topics_quiz
+writing list of installed files to '/home/user/ros2_ws/build/topics_quiz/install.log'

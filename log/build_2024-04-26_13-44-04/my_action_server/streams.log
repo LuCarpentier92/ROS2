@@ -1,0 +1,21 @@
+[5.938s] Invoking command in '/home/user/ros2_ws/src/my_action_server': PYTHONPATH=/home/user/ros2_ws/build/my_action_server/prefix_override:/home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_server build --build-base /home/user/ros2_ws/build/my_action_server/build install --record /home/user/ros2_ws/build/my_action_server/install.log --single-version-externally-managed
+[7.820s] running egg_info
+[7.821s] writing ../../build/my_action_server/my_action_server.egg-info/PKG-INFO
+[7.822s] writing dependency_links to ../../build/my_action_server/my_action_server.egg-info/dependency_links.txt
+[7.822s] writing entry points to ../../build/my_action_server/my_action_server.egg-info/entry_points.txt
+[7.823s] writing requirements to ../../build/my_action_server/my_action_server.egg-info/requires.txt
+[7.825s] writing top-level names to ../../build/my_action_server/my_action_server.egg-info/top_level.txt
+[7.828s] reading manifest file '../../build/my_action_server/my_action_server.egg-info/SOURCES.txt'
+[7.830s] writing manifest file '../../build/my_action_server/my_action_server.egg-info/SOURCES.txt'
+[7.830s] running build
+[7.831s] running build_py
+[7.884s] running install
+[7.886s] running install_lib
+[7.889s] running install_data
+[7.896s] running install_egg_info
+[7.901s] removing '/home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages/my_action_server-0.0.0-py3.10.egg-info' (and everything under it)
+[7.901s] Copying ../../build/my_action_server/my_action_server.egg-info to /home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages/my_action_server-0.0.0-py3.10.egg-info
+[7.901s] running install_scripts
+[8.008s] Installing example63 script to /home/user/ros2_ws/install/my_action_server/lib/my_action_server
+[8.008s] writing list of installed files to '/home/user/ros2_ws/build/my_action_server/install.log'
+[8.211s] Invoked command in '/home/user/ros2_ws/src/my_action_server' returned '0': PYTHONPATH=/home/user/ros2_ws/build/my_action_server/prefix_override:/home/user/ros2_ws/install/my_action_server/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_action_server build --build-base /home/user/ros2_ws/build/my_action_server/build install --record /home/user/ros2_ws/build/my_action_server/install.log --single-version-externally-managed

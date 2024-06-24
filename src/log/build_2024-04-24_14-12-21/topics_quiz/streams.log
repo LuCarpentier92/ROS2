@@ -1,0 +1,41 @@
+[3.832s] Invoking command in '/home/user/ros2_ws/src/topics_quiz': PYTHONPATH=/home/user/ros2_ws/src/build/topics_quiz/prefix_override:/home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/topics_quiz build --build-base /home/user/ros2_ws/src/build/topics_quiz/build install --record /home/user/ros2_ws/src/build/topics_quiz/install.log --install-scripts $base/lib/topics_quiz --single-version-externally-managed
+[4.808s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.808s]   warnings.warn(
+[4.923s] running egg_info
+[4.924s] creating ../build/topics_quiz/topics_quiz.egg-info
+[4.924s] writing ../build/topics_quiz/topics_quiz.egg-info/PKG-INFO
+[4.924s] writing dependency_links to ../build/topics_quiz/topics_quiz.egg-info/dependency_links.txt
+[4.924s] writing entry points to ../build/topics_quiz/topics_quiz.egg-info/entry_points.txt
+[4.924s] writing requirements to ../build/topics_quiz/topics_quiz.egg-info/requires.txt
+[4.924s] writing top-level names to ../build/topics_quiz/topics_quiz.egg-info/top_level.txt
+[4.925s] writing manifest file '../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[4.928s] reading manifest file '../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[4.929s] writing manifest file '../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[4.930s] running build
+[4.931s] running build_py
+[4.931s] creating /home/user/ros2_ws/src/build/topics_quiz/build
+[4.932s] creating /home/user/ros2_ws/src/build/topics_quiz/build/lib
+[4.932s] creating /home/user/ros2_ws/src/build/topics_quiz/build/lib/topics_quiz
+[4.933s] copying topics_quiz/topics_quiz_node.py -> /home/user/ros2_ws/src/build/topics_quiz/build/lib/topics_quiz
+[4.933s] copying topics_quiz/__init__.py -> /home/user/ros2_ws/src/build/topics_quiz/build/lib/topics_quiz
+[4.933s] running install
+[4.933s] running install_lib
+[4.935s] creating /home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+[4.935s] copying /home/user/ros2_ws/src/build/topics_quiz/build/lib/topics_quiz/topics_quiz_node.py -> /home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+[4.937s] copying /home/user/ros2_ws/src/build/topics_quiz/build/lib/topics_quiz/__init__.py -> /home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages/topics_quiz
+[4.937s] byte-compiling /home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages/topics_quiz/topics_quiz_node.py to topics_quiz_node.cpython-310.pyc
+[4.938s] byte-compiling /home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages/topics_quiz/__init__.py to __init__.cpython-310.pyc
+[4.938s] running install_data
+[4.938s] creating /home/user/ros2_ws/src/install/topics_quiz/share/ament_index
+[4.939s] creating /home/user/ros2_ws/src/install/topics_quiz/share/ament_index/resource_index
+[4.939s] creating /home/user/ros2_ws/src/install/topics_quiz/share/ament_index/resource_index/packages
+[4.939s] copying resource/topics_quiz -> /home/user/ros2_ws/src/install/topics_quiz/share/ament_index/resource_index/packages
+[4.939s] copying package.xml -> /home/user/ros2_ws/src/install/topics_quiz/share/topics_quiz
+[4.940s] creating /home/user/ros2_ws/src/install/topics_quiz/share/topics_quiz/launch
+[4.940s] copying launch/topics_quiz.launch.py -> /home/user/ros2_ws/src/install/topics_quiz/share/topics_quiz/launch
+[4.940s] running install_egg_info
+[4.942s] Copying ../build/topics_quiz/topics_quiz.egg-info to /home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages/topics_quiz-0.0.0-py3.10.egg-info
+[4.944s] running install_scripts
+[5.035s] Installing topics_quiz_node script to /home/user/ros2_ws/src/install/topics_quiz/lib/topics_quiz
+[5.035s] writing list of installed files to '/home/user/ros2_ws/src/build/topics_quiz/install.log'
+[5.229s] Invoked command in '/home/user/ros2_ws/src/topics_quiz' returned '0': PYTHONPATH=/home/user/ros2_ws/src/build/topics_quiz/prefix_override:/home/user/ros2_ws/src/install/topics_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/topics_quiz build --build-base /home/user/ros2_ws/src/build/topics_quiz/build install --record /home/user/ros2_ws/src/build/topics_quiz/install.log --install-scripts $base/lib/topics_quiz --single-version-externally-managed

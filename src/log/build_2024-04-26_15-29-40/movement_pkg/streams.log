@@ -1,0 +1,41 @@
+[2.019s] Invoking command in '/home/user/ros2_ws/src/movement_pkg': AMENT_PREFIX_PATH=/home/user/ros2_ws/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/ros2_ws/src/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_ws/src/install/custom_interfaces/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/t3_action_msg/lib:/home/user/ros2_ws/install/custom_interfaces/lib:/home/user/ros2_ws/install/actions_quiz_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages:/home/user/ros2_ws/src/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/movement_pkg build --build-base /home/user/ros2_ws/src/build/movement_pkg/build install --prefix /home/user/ros2_ws/src/install/movement_pkg --record /home/user/ros2_ws/src/build/movement_pkg/install.log --single-version-externally-managed
+[2.527s] running egg_info
+[2.528s] creating ../build/movement_pkg/movement_pkg.egg-info
+[2.528s] writing ../build/movement_pkg/movement_pkg.egg-info/PKG-INFO
+[2.528s] writing dependency_links to ../build/movement_pkg/movement_pkg.egg-info/dependency_links.txt
+[2.528s] writing entry points to ../build/movement_pkg/movement_pkg.egg-info/entry_points.txt
+[2.529s] writing requirements to ../build/movement_pkg/movement_pkg.egg-info/requires.txt
+[2.529s] writing top-level names to ../build/movement_pkg/movement_pkg.egg-info/top_level.txt
+[2.529s] writing manifest file '../build/movement_pkg/movement_pkg.egg-info/SOURCES.txt'
+[2.530s] reading manifest file '../build/movement_pkg/movement_pkg.egg-info/SOURCES.txt'
+[2.531s] writing manifest file '../build/movement_pkg/movement_pkg.egg-info/SOURCES.txt'
+[2.531s] running build
+[2.532s] running build_py
+[2.532s] creating /home/user/ros2_ws/src/build/movement_pkg/build
+[2.532s] creating /home/user/ros2_ws/src/build/movement_pkg/build/lib
+[2.532s] creating /home/user/ros2_ws/src/build/movement_pkg/build/lib/movement_pkg
+[2.532s] copying movement_pkg/movement_client.py -> /home/user/ros2_ws/src/build/movement_pkg/build/lib/movement_pkg
+[2.533s] copying movement_pkg/movement_server.py -> /home/user/ros2_ws/src/build/movement_pkg/build/lib/movement_pkg
+[2.533s] copying movement_pkg/__init__.py -> /home/user/ros2_ws/src/build/movement_pkg/build/lib/movement_pkg
+[2.533s] running install
+[2.533s] running install_lib
+[2.533s] creating /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg
+[2.534s] copying /home/user/ros2_ws/src/build/movement_pkg/build/lib/movement_pkg/movement_client.py -> /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg
+[2.534s] copying /home/user/ros2_ws/src/build/movement_pkg/build/lib/movement_pkg/movement_server.py -> /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg
+[2.534s] copying /home/user/ros2_ws/src/build/movement_pkg/build/lib/movement_pkg/__init__.py -> /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg
+[2.535s] byte-compiling /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg/movement_client.py to movement_client.cpython-310.pyc
+[2.535s] byte-compiling /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg/movement_server.py to movement_server.cpython-310.pyc
+[2.536s] byte-compiling /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg/__init__.py to __init__.cpython-310.pyc
+[2.536s] running install_data
+[2.537s] creating /home/user/ros2_ws/src/install/movement_pkg/share/ament_index
+[2.537s] creating /home/user/ros2_ws/src/install/movement_pkg/share/ament_index/resource_index
+[2.537s] creating /home/user/ros2_ws/src/install/movement_pkg/share/ament_index/resource_index/packages
+[2.537s] copying resource/movement_pkg -> /home/user/ros2_ws/src/install/movement_pkg/share/ament_index/resource_index/packages
+[2.537s] copying package.xml -> /home/user/ros2_ws/src/install/movement_pkg/share/movement_pkg
+[2.537s] copying launch/movement_server_launch_file.launch.py -> /home/user/ros2_ws/src/install/movement_pkg/share/movement_pkg
+[2.538s] running install_egg_info
+[2.539s] Copying ../build/movement_pkg/movement_pkg.egg-info to /home/user/ros2_ws/src/install/movement_pkg/lib/python3.10/site-packages/movement_pkg-0.0.0-py3.10.egg-info
+[2.540s] running install_scripts
+[2.602s] Installing movement_client script to /home/user/ros2_ws/src/install/movement_pkg/lib/movement_pkg
+[2.602s] Installing movement_server script to /home/user/ros2_ws/src/install/movement_pkg/lib/movement_pkg
+[2.602s] writing list of installed files to '/home/user/ros2_ws/src/build/movement_pkg/install.log'

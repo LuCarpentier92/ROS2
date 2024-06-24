@@ -1,0 +1,7 @@
+running egg_info
+writing ../build/exercise31_pkg/example36_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/exercise31_pkg/example36_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/exercise31_pkg/example36_pkg.egg-info/entry_points.txt
+writing requirements to ../build/exercise31_pkg/example36_pkg.egg-info/requires.txt
+writing top-level names to ../build/exercise31_pkg/example36_pkg.egg-info/top_level.txt
+error: package directory 'example36_pkg' does not exist

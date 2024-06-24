@@ -1,0 +1,68 @@
+[0.486s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/logs_test:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/actions_quiz:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/basics_ros2_multithreading -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/basics_ros2_multithreading
+[3.235s] -- The C compiler identification is GNU 11.2.0
+[3.235s] -- The CXX compiler identification is GNU 11.2.0
+[3.235s] -- Detecting C compiler ABI info
+[3.235s] -- Detecting C compiler ABI info - done
+[3.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.235s] -- Detecting C compile features
+[3.235s] -- Detecting C compile features - done
+[3.235s] -- Detecting CXX compiler ABI info
+[3.235s] -- Detecting CXX compiler ABI info - done
+[3.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.236s] -- Detecting CXX compile features
+[3.236s] -- Detecting CXX compile features - done
+[3.236s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.236s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.236s] -- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)
+[3.236s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.349s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.359s] -- Added test 'lint_cmake' to check CMake code style
+[3.364s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.440s] -- Added test 'xmllint' to check XML markup files
+[3.443s] -- Configuring done
+[3.448s] -- Generating done
+[3.448s] -- Build files have been written to: /home/user/ros2_ws/src/build/basics_ros2_multithreading
+[3.916s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/logs_test:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/actions_quiz:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/basics_ros2_multithreading -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/src/install/basics_ros2_multithreading
+[3.918s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/logs_test:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/actions_quiz:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[4.447s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/logs_test:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/actions_quiz:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/src/build/basics_ros2_multithreading -- -j8 -l8
+[5.121s] Invoking command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/logs_test:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/actions_quiz:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/basics_ros2_multithreading
+[5.135s] -- Install configuration: ""
+[5.135s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts
+[5.136s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/haarcascade_frontalface.xml
+[5.215s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/callback_function.py
+[5.215s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/face_searcher_multithreading_callbackgroups.py
+[5.215s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/function.py
+[5.215s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/deepbot_movehead.py
+[5.216s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/yello_tshirt_detector.py
+[5.216s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/face_searcher_multithreading.py
+[5.216s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/face_searcher.py
+[5.216s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/scripts/callback_spinonce_function.py
+[5.216s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch
+[5.216s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/callback_function.launch.py
+[5.216s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/face_searcher.launch.py
+[5.217s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/face_searcher_multithreading.launch.py
+[5.217s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/face_searcher_multithreading_callbackgroups.launch.py
+[5.217s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/launch/yello_tshirt_detector.launch.py
+[5.217s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/function.py
+[5.217s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/callback_function.py
+[5.218s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/callback_spinonce_function.py
+[5.218s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/face_searcher.py
+[5.218s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/face_searcher_multithreading.py
+[5.220s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/face_searcher_multithreading_callbackgroups.py
+[5.220s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/lib/basics_ros2_multithreading/yello_tshirt_detector.py
+[5.221s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/package_run_dependencies/basics_ros2_multithreading
+[5.222s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/parent_prefix_path/basics_ros2_multithreading
+[5.223s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.sh
+[5.223s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/ament_prefix_path.dsv
+[5.224s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.sh
+[5.225s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/environment/path.dsv
+[5.225s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.bash
+[5.226s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.sh
+[5.227s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.zsh
+[5.227s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/local_setup.dsv
+[5.228s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.dsv
+[5.229s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/ament_index/resource_index/packages/basics_ros2_multithreading
+[5.230s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig.cmake
+[5.230s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/cmake/basics_ros2_multithreadingConfig-version.cmake
+[5.231s] -- Installing: /home/user/ros2_ws/src/install/basics_ros2_multithreading/share/basics_ros2_multithreading/package.xml
+[5.234s] Invoked command in '/home/user/ros2_ws/src/build/basics_ros2_multithreading' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/logs_test:/home/simulations/ros2_sims_ws/install/services_pkg:/home/simulations/ros2_sims_ws/install/parameter_tests:/home/user/ros2_ws/install/topics_quiz:/home/user/ros2_ws/install/subscriber_pkg:/home/user/ros2_ws/install/publisher_pkg:/home/user/ros2_ws/install/my_package:/home/user/ros2_ws/install/my_action_server:/home/user/ros2_ws/install/my_action_client:/home/user/ros2_ws/install/movement_pkg:/home/user/ros2_ws/install/exercise42_pkg:/home/user/ros2_ws/install/client_pkg:/home/user/ros2_ws/install/actions_quiz:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/src/build/basics_ros2_multithreading

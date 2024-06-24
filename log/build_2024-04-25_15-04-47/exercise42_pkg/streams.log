@@ -1,0 +1,21 @@
+[6.699s] Invoking command in '/home/user/ros2_ws/src/exercise42_pkg': PYTHONPATH=/home/user/ros2_ws/build/exercise42_pkg/prefix_override:/home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise42_pkg build --build-base /home/user/ros2_ws/build/exercise42_pkg/build install --record /home/user/ros2_ws/build/exercise42_pkg/install.log --single-version-externally-managed
+[8.704s] running egg_info
+[8.706s] writing ../../build/exercise42_pkg/exercise42_pkg.egg-info/PKG-INFO
+[8.706s] writing dependency_links to ../../build/exercise42_pkg/exercise42_pkg.egg-info/dependency_links.txt
+[8.706s] writing entry points to ../../build/exercise42_pkg/exercise42_pkg.egg-info/entry_points.txt
+[8.707s] writing requirements to ../../build/exercise42_pkg/exercise42_pkg.egg-info/requires.txt
+[8.707s] writing top-level names to ../../build/exercise42_pkg/exercise42_pkg.egg-info/top_level.txt
+[8.710s] reading manifest file '../../build/exercise42_pkg/exercise42_pkg.egg-info/SOURCES.txt'
+[8.719s] writing manifest file '../../build/exercise42_pkg/exercise42_pkg.egg-info/SOURCES.txt'
+[8.720s] running build
+[8.720s] running build_py
+[8.721s] running install
+[8.721s] running install_lib
+[8.721s] running install_data
+[8.723s] running install_egg_info
+[8.725s] removing '/home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages/exercise42_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[8.727s] Copying ../../build/exercise42_pkg/exercise42_pkg.egg-info to /home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages/exercise42_pkg-0.0.0-py3.10.egg-info
+[8.728s] running install_scripts
+[8.892s] Installing exercise42 script to /home/user/ros2_ws/install/exercise42_pkg/lib/exercise42_pkg
+[8.892s] writing list of installed files to '/home/user/ros2_ws/build/exercise42_pkg/install.log'
+[9.171s] Invoked command in '/home/user/ros2_ws/src/exercise42_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/exercise42_pkg/prefix_override:/home/user/ros2_ws/install/exercise42_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise42_pkg build --build-base /home/user/ros2_ws/build/exercise42_pkg/build install --record /home/user/ros2_ws/build/exercise42_pkg/install.log --single-version-externally-managed

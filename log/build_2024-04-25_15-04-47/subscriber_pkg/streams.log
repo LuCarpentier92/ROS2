@@ -1,0 +1,21 @@
+[5.152s] Invoking command in '/home/user/ros2_ws/src/subscriber_pkg': PYTHONPATH=/home/user/ros2_ws/build/subscriber_pkg/prefix_override:/home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /home/user/ros2_ws/build/subscriber_pkg/build install --record /home/user/ros2_ws/build/subscriber_pkg/install.log --single-version-externally-managed
+[5.811s] running egg_info
+[5.813s] writing ../../build/subscriber_pkg/subscriber_pkg.egg-info/PKG-INFO
+[5.814s] writing dependency_links to ../../build/subscriber_pkg/subscriber_pkg.egg-info/dependency_links.txt
+[5.814s] writing entry points to ../../build/subscriber_pkg/subscriber_pkg.egg-info/entry_points.txt
+[5.814s] writing requirements to ../../build/subscriber_pkg/subscriber_pkg.egg-info/requires.txt
+[5.814s] writing top-level names to ../../build/subscriber_pkg/subscriber_pkg.egg-info/top_level.txt
+[5.817s] reading manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[5.820s] writing manifest file '../../build/subscriber_pkg/subscriber_pkg.egg-info/SOURCES.txt'
+[5.820s] running build
+[5.820s] running build_py
+[5.820s] running install
+[5.820s] running install_lib
+[5.822s] running install_data
+[5.823s] running install_egg_info
+[5.826s] removing '/home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.827s] Copying ../../build/subscriber_pkg/subscriber_pkg.egg-info to /home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages/subscriber_pkg-0.0.0-py3.10.egg-info
+[5.830s] running install_scripts
+[5.869s] Installing simple_subscriber script to /home/user/ros2_ws/install/subscriber_pkg/lib/subscriber_pkg
+[5.870s] writing list of installed files to '/home/user/ros2_ws/build/subscriber_pkg/install.log'
+[6.963s] Invoked command in '/home/user/ros2_ws/src/subscriber_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/build/subscriber_pkg/prefix_override:/home/user/ros2_ws/install/subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/subscriber_pkg build --build-base /home/user/ros2_ws/build/subscriber_pkg/build install --record /home/user/ros2_ws/build/subscriber_pkg/install.log --single-version-externally-managed

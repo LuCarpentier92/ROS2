@@ -1,0 +1,3 @@
+[console_scripts]
+topics_quiz_node = topics_quiz.topics_quiz_node:main
+

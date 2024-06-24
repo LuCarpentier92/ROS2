@@ -1,0 +1,38 @@
+[8.880s] Invoking command in '/home/user/ros2_ws/src/my_action_client': PYTHONPATH=/home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/my_action_client build --build-base /home/user/ros2_ws/src/build/my_action_client/build install --prefix /home/user/ros2_ws/src/install/my_action_client --record /home/user/ros2_ws/src/build/my_action_client/install.log --single-version-externally-managed
+[13.165s] running egg_info
+[13.166s] creating ../build/my_action_client/my_action_client.egg-info
+[13.167s] writing ../build/my_action_client/my_action_client.egg-info/PKG-INFO
+[13.172s] writing dependency_links to ../build/my_action_client/my_action_client.egg-info/dependency_links.txt
+[13.172s] writing entry points to ../build/my_action_client/my_action_client.egg-info/entry_points.txt
+[13.172s] writing requirements to ../build/my_action_client/my_action_client.egg-info/requires.txt
+[13.172s] writing top-level names to ../build/my_action_client/my_action_client.egg-info/top_level.txt
+[13.173s] writing manifest file '../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[13.176s] reading manifest file '../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[13.177s] writing manifest file '../build/my_action_client/my_action_client.egg-info/SOURCES.txt'
+[13.177s] running build
+[13.177s] running build_py
+[13.178s] creating /home/user/ros2_ws/src/build/my_action_client/build
+[13.178s] creating /home/user/ros2_ws/src/build/my_action_client/build/lib
+[13.178s] creating /home/user/ros2_ws/src/build/my_action_client/build/lib/my_action_client
+[13.178s] copying my_action_client/action_client.py -> /home/user/ros2_ws/src/build/my_action_client/build/lib/my_action_client
+[13.178s] copying my_action_client/__init__.py -> /home/user/ros2_ws/src/build/my_action_client/build/lib/my_action_client
+[13.179s] running install
+[13.179s] running install_lib
+[13.181s] creating /home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages/my_action_client
+[13.181s] copying /home/user/ros2_ws/src/build/my_action_client/build/lib/my_action_client/action_client.py -> /home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages/my_action_client
+[13.181s] copying /home/user/ros2_ws/src/build/my_action_client/build/lib/my_action_client/__init__.py -> /home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages/my_action_client
+[13.182s] byte-compiling /home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages/my_action_client/action_client.py to action_client.cpython-310.pyc
+[13.184s] byte-compiling /home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages/my_action_client/__init__.py to __init__.cpython-310.pyc
+[13.184s] running install_data
+[13.185s] creating /home/user/ros2_ws/src/install/my_action_client/share/ament_index
+[13.185s] creating /home/user/ros2_ws/src/install/my_action_client/share/ament_index/resource_index
+[13.185s] creating /home/user/ros2_ws/src/install/my_action_client/share/ament_index/resource_index/packages
+[13.185s] copying resource/my_action_client -> /home/user/ros2_ws/src/install/my_action_client/share/ament_index/resource_index/packages
+[13.186s] copying package.xml -> /home/user/ros2_ws/src/install/my_action_client/share/my_action_client
+[13.186s] copying launch/example62_launch_file.launch.py -> /home/user/ros2_ws/src/install/my_action_client/share/my_action_client
+[13.186s] running install_egg_info
+[13.189s] Copying ../build/my_action_client/my_action_client.egg-info to /home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages/my_action_client-0.0.0-py3.10.egg-info
+[13.191s] running install_scripts
+[13.366s] Installing example62 script to /home/user/ros2_ws/src/install/my_action_client/lib/my_action_client
+[13.367s] writing list of installed files to '/home/user/ros2_ws/src/build/my_action_client/install.log'
+[16.376s] Invoked command in '/home/user/ros2_ws/src/my_action_client' returned '0': PYTHONPATH=/home/user/ros2_ws/src/install/my_action_client/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../build/my_action_client build --build-base /home/user/ros2_ws/src/build/my_action_client/build install --prefix /home/user/ros2_ws/src/install/my_action_client --record /home/user/ros2_ws/src/build/my_action_client/install.log --single-version-externally-managed

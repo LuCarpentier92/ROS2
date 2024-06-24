@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from actions_quiz_msg/action/Distance.action
+// generated code does not contain a copyright notice
+
+module actions_quiz_msg {
+  module action {
+    struct Distance_Goal {
+      int32 seconds;  // Modifier le nom et le type du paramètre
+    };
+    struct Distance_Result {
+      boolean status;  // Modifier le nom et le type du paramètre
+      float64 total_dist;  // Ajouter un nouveau paramètre
+    };
+    struct Distance_Feedback {
+      float64 current_dist;  // Ajouter un nouveau paramètre
+    };
+  };
+};

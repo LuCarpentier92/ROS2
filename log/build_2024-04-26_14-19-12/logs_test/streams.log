@@ -1,0 +1,25 @@
+[0.894s] Invoking command in '/home/user/ros2_ws/src/logs_test': PYTHONPATH=/home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/logs_test build --build-base /home/user/ros2_ws/build/logs_test/build install --prefix /home/user/ros2_ws/install/logs_test --record /home/user/ros2_ws/build/logs_test/install.log --single-version-externally-managed
+[1.262s] running egg_info
+[1.263s] writing ../../build/logs_test/logs_test.egg-info/PKG-INFO
+[1.263s] writing dependency_links to ../../build/logs_test/logs_test.egg-info/dependency_links.txt
+[1.263s] writing entry points to ../../build/logs_test/logs_test.egg-info/entry_points.txt
+[1.263s] writing requirements to ../../build/logs_test/logs_test.egg-info/requires.txt
+[1.263s] writing top-level names to ../../build/logs_test/logs_test.egg-info/top_level.txt
+[1.265s] reading manifest file '../../build/logs_test/logs_test.egg-info/SOURCES.txt'
+[1.266s] writing manifest file '../../build/logs_test/logs_test.egg-info/SOURCES.txt'
+[1.266s] running build
+[1.266s] running build_py
+[1.267s] copying logs_test/logger_example.py -> /home/user/ros2_ws/build/logs_test/build/lib/logs_test
+[1.267s] running install
+[1.267s] running install_lib
+[1.268s] copying /home/user/ros2_ws/build/logs_test/build/lib/logs_test/logger_example.py -> /home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test
+[1.269s] byte-compiling /home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test/logger_example.py to logger_example.cpython-310.pyc
+[1.269s] running install_data
+[1.270s] copying launch/logger_example.launch.py -> /home/user/ros2_ws/install/logs_test/share/logs_test
+[1.270s] running install_egg_info
+[1.272s] removing '/home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test-0.0.0-py3.10.egg-info' (and everything under it)
+[1.273s] Copying ../../build/logs_test/logs_test.egg-info to /home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages/logs_test-0.0.0-py3.10.egg-info
+[1.274s] running install_scripts
+[1.299s] Installing logger_example script to /home/user/ros2_ws/install/logs_test/lib/logs_test
+[1.300s] writing list of installed files to '/home/user/ros2_ws/build/logs_test/install.log'
+[1.330s] Invoked command in '/home/user/ros2_ws/src/logs_test' returned '0': PYTHONPATH=/home/user/ros2_ws/install/logs_test/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/logs_test build --build-base /home/user/ros2_ws/build/logs_test/build install --prefix /home/user/ros2_ws/install/logs_test --record /home/user/ros2_ws/build/logs_test/install.log --single-version-externally-managed

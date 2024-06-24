@@ -1,0 +1,22 @@
+[4.188s] Invoking command in '/home/user/ros2_ws/src/topics_quiz': PYTHONPATH=/home/user/ros2_ws/build/topics_quiz/prefix_override:/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/topics_quiz build --build-base /home/user/ros2_ws/build/topics_quiz/build install --record /home/user/ros2_ws/build/topics_quiz/install.log --install-scripts $base/lib/topics_quiz --single-version-externally-managed
+[5.161s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.161s]   warnings.warn(
+[5.257s] running egg_info
+[5.258s] writing ../../build/topics_quiz/topics_quiz.egg-info/PKG-INFO
+[5.259s] writing dependency_links to ../../build/topics_quiz/topics_quiz.egg-info/dependency_links.txt
+[5.259s] writing entry points to ../../build/topics_quiz/topics_quiz.egg-info/entry_points.txt
+[5.259s] writing requirements to ../../build/topics_quiz/topics_quiz.egg-info/requires.txt
+[5.259s] writing top-level names to ../../build/topics_quiz/topics_quiz.egg-info/top_level.txt
+[5.263s] reading manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[5.265s] writing manifest file '../../build/topics_quiz/topics_quiz.egg-info/SOURCES.txt'
+[5.266s] running build
+[5.266s] running build_py
+[5.266s] running install
+[5.266s] running install_lib
+[5.268s] running install_data
+[5.269s] running install_egg_info
+[5.272s] removing '/home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz-0.0.0-py3.10.egg-info' (and everything under it)
+[5.273s] Copying ../../build/topics_quiz/topics_quiz.egg-info to /home/user/ros2_ws/install/topics_quiz/lib/python3.10/site-packages/topics_quiz-0.0.0-py3.10.egg-info
+[5.274s] running install_scripts
+[5.310s] Installing topics_quiz_node script to /home/user/ros2_ws/install/topics_quiz/lib/topics_quiz
+[5.310s] writing list of installed files to '/home/user/ros2_ws/build/topics_quiz/install.log'
